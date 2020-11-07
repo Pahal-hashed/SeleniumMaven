@@ -13,7 +13,7 @@ public class AddBook {
 	WebDriver driver;
 	@BeforeMethod
 	public void launch() {
-		System.setProperty("webdriver.gecko.driver","geckodriver");
+		System.setProperty("webdriver.gecko.driver","geckodriver.exe");
 		  driver =new FirefoxDriver();
 		  driver.get("https://www.google.com");
 		  driver.manage().window().maximize();
