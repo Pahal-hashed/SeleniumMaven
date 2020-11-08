@@ -27,6 +27,6 @@ public class AddBook {
   }
 	@AfterMethod
 	public void close() {
-//		driver.close();
+		driver.close();
 	}
 }
