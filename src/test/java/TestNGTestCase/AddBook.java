@@ -13,7 +13,7 @@ public class AddBook {
 	WebDriver driver;
 	@BeforeMethod
 	public void launch() {
-		System.setProperty("webdriver.gecko.driver","geckodriver");
+		System.setProperty("webdriver.gecko.driver","/opt/geckodriver");
 		  driver =new FirefoxDriver();
 		  driver.get("http://0.0.0.0:3001/");
 		  driver.manage().window().maximize();
